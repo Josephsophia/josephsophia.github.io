@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 7px;
+}
+body {
+  background-color: mediumturquoise;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.fija {
+  position: fixed;
+  top: 0;
+  left: 400px;
+  font-weight: bolder;
+}
+
+#menu {
+  background-color: cadetblue;
+  height: auto;
+}
+@font-face {
+  font-family: "Pacifico-Regular";
+  src: url(/fonts/Pacifico-Regular.ttf);
+}
+h1 {
+  font-family: "Pacifico-Regular";
+  color: white;
+}
+
+#cuerpo {
+  background-color: white;
+}
+
+#pie {
+  background-color: rgb(44, 44, 44);
+}
+button {
+  background: rgba(0, 0, 0, 0.582);
+}
+.buttonpie {
+  background: darkgray;
+}
+.buttontours {
+  background: rgb(211, 105, 67);
+}
+
+/* aplicamos estilo para el menu */
+header nav {
+  margin: 20px 0;
+  text-align: right;
+}
+header nav a {
+  margin: 0 20px;
+  padding-bottom: 9px;
+  text-decoration: none;
+  color: white;
+}

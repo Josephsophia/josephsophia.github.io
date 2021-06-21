@@ -1,0 +1,56 @@
+body {
+  background-color: rgba(102, 51, 153, 0.911);
+}
+.menu {
+  background-color: thistle;
+  color: white;
+}
+.contenedor {
+  background-color: whitesmoke;
+}
+.borde {
+  border: 5px solid rgb(226, 194, 235);
+}
+
+@font-face {
+  font-family: "PermanentMarker-Regular";
+  src: url(/fonts/PermanentMarker-Regular.ttf);
+}
+@font-face {
+  font-family: "JosefinSans";
+  src: url(/fonts/JosefinSans-Italic-VariableFont_wght.ttf);
+}
+.me {
+  font-family: "PermanentMarker-Regular";
+}
+.contenedor {
+  font-family: "JosefinSans";
+}
+table {
+  width: 100%;
+  border: 4px solid mediumpurple;
+  border-collapse: collapse;
+}
+th {
+  height: 30px;
+  text-align: center;
+  vertical-align: top;
+  background-color: mediumpurple;
+  color: white;
+}
+table tbody tr:hover {
+  background-color: mediumslateblue;
+  color: gainsboro;
+}
+
+/* Aplico estilos a los iconos de los perfiles sociales */
+
+i {
+  font-size: 30px;
+}
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-github-square {
+  color: #6e5494;
+}
