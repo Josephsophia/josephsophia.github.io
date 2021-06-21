@@ -6,14 +6,14 @@ ul{
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color: gainsboro;
+    background-color: rgba(83, 148, 192, 0.603);
     position: fixed;
     overflow: auto;
-    border: 1px solid rgb(143, 141, 141);
+    border: 1px solid rgb(9, 60, 107);
 }
 li{
     text-align: center;
-    border: 1px solid rgb(143, 141, 141);
+    border: 1px solid rgb(9, 60, 107);
 }
 li a{
     display: block;
@@ -22,7 +22,7 @@ li a{
     text-decoration: none;
 }
 li a.activo{
-    background-color: paleturquoise;
+    background-color: rgb(45, 110, 170);
     color: white;
 }
 li a:hover:not(.activo){
