@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+}
+body{
+    font-family: 'Slabo 13px', serif;
+    font-size: 18px;
+    background-color: #f1e4f1;
+}
+.contenedor{
+    width: 400px;
+    margin: 40px auto;
+    background: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+}
+.formulario .contenedorinput{
+    padding: 20px;
+    border-radius: 6px 6px 0 0;
+    background: rgb(245, 251, 252);
+}
+.formulario input[type="text"], .formulario input[type="mail"]{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Slabo 13px', serif;
+    font-size: 18px;
+}
+
+.boton{
+    width: 100%;
+    text-align: center;
+    background: #b350c0;
+    color: #fff;
+    border:none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    font-family: 'Slabo 13px', serif;
+    font-size: 18px;
+}
+
+.formulario .boton:hover{
+    background-color: #3688be;
+}
+

@@ -38,7 +38,7 @@ li a{
     text-decoration: none;
 }
 li a.activo{
-    background-color: rgba(252, 246, 255, 0.842);
+    background-color: rgba(22, 4, 31, 0.842);
     color: white;
 }
 li a:hover:not(.activo){

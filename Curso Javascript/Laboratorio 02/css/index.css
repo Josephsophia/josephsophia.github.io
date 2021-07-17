@@ -29,3 +29,8 @@ li a:hover:not(.activo){
     background-color: rgb(143, 141, 141);
     color: white;
 }
+.menu{
+    text-align: center;
+    border: 1px solid rgb(9, 60, 107);
+    background: rgb(45, 110, 170);
+}
